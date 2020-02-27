@@ -19,7 +19,7 @@ Public Class Form1
         On Error GoTo AddNewErr
         JanuaryBindingSource.AddNew()
 ErrExe:
-        Exit Sub
+        
 AddNewErr:
         MsgBox("Добавете номер на апартамент!")
         Resume ErrExe
