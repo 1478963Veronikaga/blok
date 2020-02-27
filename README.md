@@ -19,10 +19,13 @@ Public Class Form1
         On Error GoTo AddNewErr
         JanuaryBindingSource.AddNew()
 ErrExe:
-        Exit Sub
+        
+
+
 AddNewErr:
         MsgBox("Добавете номер на апартамент!")
         Resume ErrExe
+
     End Sub
 
     Private Sub BtnSave_Click(sender As Object, e As EventArgs) Handles BtnSave.Click
