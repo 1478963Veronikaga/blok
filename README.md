@@ -13,9 +13,9 @@ Public Class Form1
         Me.JanuaryTableAdapter.Fill(Me.Blok6DataSet.january)
 
     End Sub
-
+ Private Sub BtnAddNew_Click(sender As Object, e As EventArgs) Handles BtnAddNew.Click
    
-    Private Sub BtnAddNew_Click(sender As Object, e As EventArgs) Handles BtnAddNew.Click
+   
         On Error GoTo AddNewErr
         JanuaryBindingSource.AddNew()
 ErrExe:
